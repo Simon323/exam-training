@@ -1,0 +1,143 @@
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.pagination-controls.fixed-bottom {
+  border-top: 1px solid #dee2e6;
+  border-bottom: none;
+}
+
+.pagination-controls label {
+  margin-right: 0.5rem;
+}
+
+.pagination-controls .form-select,
+.pagination-controls .form-control {
+  display: inline-block;
+  width: auto;
+}
+
+.pagination-controls .btn {
+  margin-left: 0.5rem;
+}
+
+.questions-container {
+  margin-top: 3rem;
+}
+
+.exam-question-card {
+  margin-bottom: 1rem;
+}
+
+.exam-question-card .card-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.multi-choice-item.correct-answer {
+  color: green;
+}
+
+.pagination-controls .form-control {
+  width: 60px;
+  text-align: center;
+}
+
+.pagination-controls span {
+  margin-right: 0.5rem;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.questions-container .card {
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.exam-question-card {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-body ul {
+  padding-left: 25px;
+}
+
+.nav-squares {
+  display: flex;
+  gap: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.correct-answer {
+  outline: 2px solid greenyellow;
+}
+
+.correct-answer:not(:has(input:checked)) {
+  outline-style: dashed;
+}
+
+.incorrect-answer {
+  outline: 2px solid red;
+}
+
+.correct-count {
+  color: greenyellow;
+}
+
+.incorrect-count {
+  color: red;
+}
+
+.correct-message {
+  color: green;
+  margin-right: 1rem;
+}
+
+.incorrect-message {
+  color: red;
+  margin-right: 1rem;
+}
+
+.check-answer-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
